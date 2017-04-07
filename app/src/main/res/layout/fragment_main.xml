@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/container1"
+    tools:context="com.tdot.rainfalltrackerfree.MainActivity$PlaceholderFragment" >
+
+   
+     <com.tdot.rainfalltrackerfree.TouchImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+         android:scaleType="fitXY"
+        android:src="@drawable/nature_1" />
+        
+    
+       <com.tdot.rainfalltrackerfree.TouchImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:onClick="onClick"
+        android:scaleType="fitXY" />
+        
+       
+     
+       <com.tdot.rainfalltrackerfree.model.CrossImageView
+        android:id="@+id/widgetMap"
+        android:layout_width="fill_parent"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        android:layout_height="fill_parent" />   
+        
+
+      
+       <!-- TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:background="@drawable/button"        
+        android:layout_alignParentTop="true"
+        android:onClick="onClick"
+        android:text="@string/timer" / -->
+       
+
+
+       <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:progressDrawable="@drawable/button"
+        android:thumb="@drawable/scrollpad"
+        android:layout_height="wrap_content" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:gravity="center_horizontal"
+           android:text=""
+           android:background="#607d8b"
+           android:textColor="#000000"
+           android:textSize="25sp"
+           android:textStyle="bold" />
+       
+         <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_live" />
+       
+
+</RelativeLayout>

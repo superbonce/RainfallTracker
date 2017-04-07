@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="App start up" >
+        <ListPreference
+            android:defaultValue="@string/pref_appstart_default"
+            android:entries="@array/appstartArray"
+            android:entryValues="@array/appstartValues"
+            android:key="@string/pref_appstart_key"
+            android:summary="@string/appstart_summary"
+            android:title="@string/appstart_choice" />
+    </PreferenceCategory>
+       <PreferenceCategory android:title="Map background" >
+        <ListPreference
+            android:defaultValue="@string/pref_map_default"
+            android:entries="@array/MapArray"
+            android:entryValues="@array/MapValues"
+            android:key="@string/pref_map_key"
+            android:summary="@string/map_summary"
+            android:title="@string/background_choice" />
+    </PreferenceCategory>
+      <PreferenceCategory android:title="Animation speed" >
+        <ListPreference
+            android:defaultValue="@string/pref_speed_default"
+            android:entries="@array/speedArray"
+            android:entryValues="@array/speedValues"
+            android:key="@string/pref_speed_key"
+            android:summary="@string/speed_summary"
+            android:title="@string/speed_choice" />
+            </PreferenceCategory>
+        <PreferenceCategory android:title="Location" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_loc_key"
+            android:summary="@string/loc_summary"
+            android:title="@string/loc_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rainfall Tracker</string>
+    <string name="slogan">Keep your eye on the rain!</string>
+    <string name="no_name"></string>
+    <string name="timer">00:00</string>
+    <string name="background_choice">Choose background</string>
+    <string name="appstart_choice">Choose startup screen</string>
+    <string name="speed_choice">Choose animation speed</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_settings">About</string>
+    <string name="help_settings">Help</string>
+    <string name="action_search">Search</string>
+    <string name="supplier">Contains public sector information licensed under the Open Government Licence</string>
+    <string name="iconsupplier">Radar icon from simpleicon.com</string>
+    <string name="version">Version</string>
+    <string name="company">tDot software</string>
+    <string name="companywww">www.tdot.co.uk</string>
+    <string name="ok">OK</string>
+    <string name="fcbut">Forecast rainfall</string>
+    <string name="fcprobbut">Chance of rain</string>
+    <string name="obbut">Actual rainfall</string>
+    <string name="fxbut">Surface pressure</string>
+    <string name="obdesc">Actual precipitation as tracked by the radar network.</string>
+    <string name="fcdesc">These images are generated from the forecast model and predict the location of precipitation in the coming days.</string>
+    <string name="fcprobdesc">Probability of rain at certain locations, day and night for 5 days.</string>
+    <string name="fxdesc">Surface pressure and features such as weather fronts.</string>
+    <string name="units">mm per hour</string>
+    <string name="band1">0.01 to 0.5 </string>
+    <string name="band2">0.5 to 1.0</string>
+    <string name="band3">1.0 to 2.0</string>
+    <string name="band4">2.0 to 4.0</string>
+    <string name="band5">4.0 to 8.0</string>
+    <string name="band6">8.0 to 16.0</string>
+    <string name="band7">16.0 to 32.0</string>
+    <string name="band8"> >32</string>
+    <string name="synoptichelp">Help on synoptic charts</string>
+    <string name="help0">Using Rainfall Tracker</string>
+    <string name="help1">Tap map to pause/restart animation</string>
+    <string name="help2">Double tap for max zoom in / out</string>
+    <string name="help3">Pinch zoom supported</string>
+    <string name="help4">Use scrollbar to change frames</string>
+    <string name="help5">Key is on Landscape view</string>
+    <string name="showhelp">More detail</string>
+    <string name="hidehelp">Less detail</string>
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id_live">ca-app-pub-2979393473426906/7859338079</string>
+    
+
+</resources>

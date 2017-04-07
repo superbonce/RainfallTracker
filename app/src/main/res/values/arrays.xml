@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- preferences options -->
+
+   <array name="MapArray">
+    	<item>classic</item>
+    	<item>retro</item>
+    </array>
+    <array name="MapValues">
+    	<item>classic</item>	
+    	<item>retro</item>
+    </array>
+     <array name="appstartArray">
+    	<item>On home screen</item>
+    	<item>On actual rainfall</item>
+    	<item>On forecast rainfall</item>
+    </array>
+    <array name="appstartValues">
+    	<item>On home screen</item>
+    	<item>On actual rainfall</item>
+    	<item>On forecast rainfall</item>
+    </array>
+    <array name="speedArray">
+    	<item>Slow</item>	
+    	<item>Medium</item>
+    	<item>Fast</item>
+    </array>
+    <array name="speedValues">
+    	<item>Slow</item>	
+    	<item>Medium</item>
+    	<item>Fast</item>
+    </array>
+    
+ 
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="map_summary">Change map background</string>
+    <string name="map_title">Background map</string>
+    <string name="pref_map_key">prefs_map_key</string>
+     <string name="pref_map_default">classic</string>
+      <string name="appstart_summary">Choose which screen the app starts on</string>
+    <string name="appstart_title">Start up</string>
+    <string name="pref_appstart_key">prefs_appstart_key</string>
+      <string name="pref_appstart_default">On home screen</string>
+       <string name="speed_summary">Choose the animation speed</string>
+    <string name="speed_title">Animation speed</string>
+    <string name="pref_speed_key">prefs_speed_key</string>
+      <string name="pref_speed_default">Medium</string>
+        <string name="loc_summary">Location services must be on. Restart app to take effect.</string>
+    <string name="loc_title">Plot approx location</string>
+    <string name="pref_loc_key">prefs_loc_key</string>
+      <string name="pref_loc_default">true</string>
+    </resources>
+    
